@@ -18,7 +18,6 @@
     "major": "npm version major -m \"Tag v%s\""
   },
   "dependencies": {
-    "@vue/test-utils": "^1.0.0-beta.16",
     "abcjs": "^5.2.0",
     "aws-sdk": "^2.1380.0",
     "babel-runtime": "^6.26.0",
@@ -40,9 +39,7 @@
     "request": "^2.85.0",
     "serve-static": "^1.13.2",
     "tmp": "^0.0.33",
-    "turndown": "^4.0.2",
-    "vue": "^2.5.16",
-    "vuex": "^3.0.1"
+    "turndown": "^4.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -61,13 +58,6 @@
     "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-import-resolver-webpack": "^0.9.0",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-html": "^4.0.3",
-    "eslint-plugin-import": "^2.11.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^2.0.0",
@@ -80,9 +70,6 @@
     "http-proxy-middleware": "^0.18.0",
     "identity-obj-proxy": "^3.0.0",
     "ignore-loader": "^0.1.2",
-    "jest": "^23.0.0",
-    "jest-raw-loader": "^1.0.1",
-    "jest-serializer-vue": "^0.3.0",
     "node-sass": "^4.0.0",
     "npm-bump": "^0.0.23",
     "offline-plugin": "^5.0.3",
@@ -101,10 +88,7 @@
     "stylelint-processor-html": "^1.0.0",
     "stylelint-webpack-plugin": "^0.10.4",
     "url-loader": "^1.0.1",
-    "vue-jest": "^1.0.2",
-    "vue-loader": "^15.0.9",
     "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
     "webpack": "^2.6.1",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-dev-middleware": "^1.10.0",
