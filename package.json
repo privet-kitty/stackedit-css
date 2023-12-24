@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/benweet/stackedit/issues"
   },
-  "main": "index.js",
+  "main": "dist/style.css",
   "scripts": {
     "postinstall": "gulp build-prism",
     "start": "node build/dev-server.js",
