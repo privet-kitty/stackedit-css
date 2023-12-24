@@ -25,7 +25,6 @@
   "devDependencies": {
     "abcjs": "^5.2.0",
     "autoprefixer": "^6.7.2",
-    "babel-runtime": "^6.26.0",
     "bezier-easing": "^1.1.0",
     "body-parser": "^1.18.2",
     "chalk": "^1.1.3",
