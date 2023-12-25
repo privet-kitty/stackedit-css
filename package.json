@@ -1,19 +1,12 @@
 {
-  "name": "stackedit",
-  "version": "5.15.4",
-  "description": "Free, open-source, full-featured Markdown editor",
-  "bugs": {
-    "url": "https://github.com/benweet/stackedit/issues"
-  },
+  "name": "stackedit-css",
+  "version": "0.1.0",
+  "description": "CSS files extracted from StackEdit",
   "license": "Apache-2.0",
-  "author": "Benoit Schweblin",
+  "author": "Hugo Sansaqua",
   "main": "dist/style.css",
   "scripts": {
-    "build": "webpack --config build/webpack.style.conf.js",
-    "major": "npm version major -m \"Tag v%s\"",
-    "minor": "npm version minor -m \"Tag v%s\"",
-    "patch": "npm version patch -m \"Tag v%s\"",
-    "postversion": "git push origin master --tags && npm publish"
+    "build": "webpack --config build/webpack.style.conf.js"
   },
   "browserslist": [
     "> 1%",
@@ -24,7 +17,7 @@
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^1.1.11",
-    "katex": "^0.13.0",
+    "katex": "^0.13.24",
     "node-sass": "^4.0.0",
     "normalize-scss": "^7.0.1",
     "optimize-css-assets-webpack-plugin": "^1.3.2",
