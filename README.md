@@ -1,4 +1,4 @@
-# StackEdit
+# stackedit-css
 
 > [!NOTE]
 > This repository is not official.
