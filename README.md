@@ -29,6 +29,7 @@ Note that the `{{version}}` should be replaced with the version you want to use.
 
 ```bash
 version=$(npm version patch)
+echo $version
 git push origin $version
 npm publish
 ```
